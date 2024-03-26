@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+nav {
+  background-color: #eeeeee;
+}
+
+.navbar-brand {
+  color: #000033;
+  font-weight: 500;
+}
+
+.nav-link {
+  color: #000033;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #fda403;
+}
+
+.nav-item .nav-link.active {
+  color: #fda403;
+}
+
+.btn-primary-1 {
+  background-color: transparent;
+  color: #fda403;
+  border: 2px solid #fda403;
+  width: 250px;
+  font-weight: 400;
+  border-radius: 30px;
+}
+
+.btn-primary-1:hover {
+  color: #000033;
+  font-weight: 400;
+  background-color: #fda403;
+  border: 2px solid #fda403;
+}
