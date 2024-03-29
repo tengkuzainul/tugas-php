@@ -18,6 +18,8 @@ $dataSiswa = [
     ['nama' => 'Hihang Hoheng', 'nim' => 195620031, 'nilai' => 73],
     ['nama' => 'M. Iqbal Sya', 'nim' => 210402128, 'nilai' => 70],
     ['nama' => 'Muhitualdi', 'nim' => 210402051, 'nilai' => 50],
+    ['nama' => 'Farhan Sihar', 'nim' => 23551298, 'nilai' => 82],
+    ['nama' => 'Rian Rere', 'nim' => 198753427, 'nilai' => 69],
 ];
 
 $thead = ['No', 'Nama', 'NIM', 'Nilai', 'Keterangan', 'Grade', 'Predikat'];
@@ -35,7 +37,7 @@ $tfoot = [
     'Nilai Tertinggi' => $nilaiMax,
     'Nilai Terendah' => $nilaiMin,
     'Nilai Rata Rata' => $nilaiRata2,
-    'Jumlah Siswa' => $jumlahSiswa,
+    'Jumlah Mahaiswa' => $jumlahSiswa,
     'Jumlah Keseluruhan Nilai' => $totalNilai
 ];
 
