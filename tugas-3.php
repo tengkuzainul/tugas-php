@@ -53,10 +53,10 @@ $tfoot = [
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body style="background-color: #535C91;">
+<body style="background-color: #EADFB4;">
     <div class="container px-5 py-5">
         <div class="row">
-            <div class="card shadow-lg" style="border-radius: 55px; background-color: #98ABEE;">
+            <div class="card shadow-lg" style="border-radius: 55px; background-color: #0A1D56;">
                 <div class="card-body p-4">
                     <h1 class="text-center fw-bold display-4 gradient">DAFTAR NILAI SISWA</h1>
                     <hr>
@@ -128,6 +128,10 @@ $tfoot = [
                         </tfoot>
                         </thead>
                     </table>
+                </div>
+                <div class="card-footer">
+                    <p class="text-white text-center" style="">&copy; Tengku Muhammad Zainul Aprilizar - Tugas 3 PHP</p>
+                    <p class="text-white text-center" style="">SIB Nurul Fikri 2024</p>
                 </div>
             </div>
         </div>
