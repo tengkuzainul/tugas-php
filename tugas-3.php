@@ -130,8 +130,8 @@ $tfoot = [
                     </table>
                 </div>
                 <div class="card-footer">
-                    <p class="text-white text-center" style="">&copy; Tengku Muhammad Zainul Aprilizar - Tugas 3 PHP</p>
-                    <p class="text-white text-center" style="">SIB Nurul Fikri 2024</p>
+                    <p class="text-white text-center">&copy; Tengku Muhammad Zainul Aprilizar - Tugas 3 PHP</p>
+                    <p class="text-white text-center">SIB Nurul Fikri 2024</p>
                 </div>
             </div>
         </div>
