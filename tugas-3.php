@@ -35,7 +35,8 @@ $tfoot = [
     'Nilai Tertinggi' => $nilaiMax,
     'Nilai Terendah' => $nilaiMin,
     'Nilai Rata Rata' => $nilaiRata2,
-    'Jumlah Siswa' => $jumlahSiswa
+    'Jumlah Siswa' => $jumlahSiswa,
+    'Jumlah Keseluruhan Nilai' => $totalNilai
 ];
 
 ?>
@@ -52,12 +53,12 @@ $tfoot = [
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body style="background-color: #5356FF;">
+<body style="background-color: #535C91;">
     <div class="container px-5 py-5">
         <div class="row">
-            <div class="card shadow-lg" style="border-radius: 25px;">
-                <div class="card-body">
-                    <h1 class="text-center fw-bold text-body-emphasis display-4">DAFTAR NILAI SISWA</h1>
+            <div class="card shadow-lg" style="border-radius: 55px; background-color: #98ABEE;">
+                <div class="card-body p-4">
+                    <h1 class="text-center fw-bold display-4 gradient">DAFTAR NILAI SISWA</h1>
                     <hr>
                     <table class="table table-success table-striped table-hover table-responsive">
                         <thead>
