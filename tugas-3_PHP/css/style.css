@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-item .nav-link {
+  color: #f9f9f9;
+}
+
+.nav-item .nav-link:hover {
+  color: #fcdc2a;
+}
+
+.text-custom {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.nav .nav-item {
+  color: #f9f9f9;
+}
+
+.hero {
+  background-image: url("https://travellingindonesia.com/wp-content/uploads/2024/01/Ilustrasi-kuliner-nusantara.-.jpeg");
+  background-position: center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text-white-shadow {
+  color: #f9f9f9;
+  text-shadow: 10px 10px 10px black;
+}
+
+.text-copy {
+  color: beige;
+  text-shadow: 35px 35px 35px black;
+  font-weight: 400;
+}
