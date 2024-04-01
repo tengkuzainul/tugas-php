@@ -1,5 +1,5 @@
 <?php
-include_once 'template/content.php'
+include_once 'menu.php'
 ?>
 
 <!DOCTYPE html>
@@ -27,11 +27,11 @@ include_once 'template/content.php'
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <?php foreach ($content_nav as $key => $value) { ?>
+                        <?php foreach ($nav as $key => $value) { ?>
                             <li class="nav-item">
                                 <a class="nav-link" href="index.php?hal=<?= $key ?>"><?= $value ?></a>
                             </li>
-                        <?php } ?>
+                        <?php  } ?>
                     </ul>
                 </div>
             </div>
