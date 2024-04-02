@@ -23,13 +23,13 @@ if (isset($_SESSION['mahasiswa'])) {
 <body style="background-color: #222831;">
     <div class="container m-auto">
         <div class="d-flex justify-content-center my-5">
-            <div class="card shadow-lg w-75" style="background-color: #8C6A5D;">
+            <div class="card shadow-lg w-100" style="background-color: #8C6A5D;">
                 <div class="card-body p-4">
                     <h1 class="text-white display-4 fw-bold border-bottom border-white rounded text-center">DAFTAR NILAI UJIAN</h1>
                     <div class="d-flex justify-content-start">
                         <a href="<?php echo isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : ''; ?>" class="btn btn-primary btn-sm mb-2"><i class="bi bi-caret-left"></i><i class="bi bi-caret-left"></i>&nbsp;&nbsp;Kembali</a>
                     </div>
-                    <table class="table table-dark table-hover">
+                    <table class="table table-dark table-hover table-responsive table-bordered border-white table-lg">
                         <thead>
                             <tr>
                                 <?php
@@ -50,9 +50,9 @@ if (isset($_SESSION['mahasiswa'])) {
                                     <td><?php echo $mahasiswa->universitas; ?></td>
                                     <td><?php echo $mahasiswa->matakuliah; ?></td>
                                     <td><?php echo $mahasiswa->nilai; ?></td>
-                                    <td><?php echo $mahasiswa->status(); ?></td>
                                     <td><?php echo $mahasiswa->grade(); ?></td>
                                     <td><?php echo $mahasiswa->predikat(); ?></td>
+                                    <td><?php echo $mahasiswa->status(); ?></td>
                                 <?php else : ?>
                                     <td colspan="6" class="text-center fw-bold">Data mahasiswa belum tersedia.</td>
                                 <?php endif; ?>
